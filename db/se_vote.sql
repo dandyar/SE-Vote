@@ -158,7 +158,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `online`, `created_on`, `updated_on`, `updated_by`, `last_login`, `active`, `first_name`, `last_name`, `class`, `phone`) VALUES
-(1, '127.0.0.1', 'admin123', '$2a$07$SeBknntpZror9uyftVopmu61qg0ms8Qv1yV6FG.kQOSM.9QhmTo36', NULL, '', NULL, NULL, NULL, NULL, 0, 1508591750, 0, NULL, 1532596699, 1, 'Dandy', 'Alfaz Ramadhan', 'Admin', NULL),
+(1, '127.0.0.1', 'admin123', '$2y$08$200Z6ZZbp3RAEXoaWcMA6uJOFicwNZaqk4oDhqTUiFXFe63MG.Daa', NULL, '', NULL, NULL, NULL, NULL, 0, 1508591750, 0, NULL, 1532596699, 1, 'Dandy', 'Alfaz Ramadhan', 'Admin', NULL),
 (2, '127.0.0.1', 'ai.r1', '$2y$08$1GiBs8y25SoImG6NP5mBhO/VzZpnmRyrAyJ1So2Cw76YqZhxG.PrK', NULL, '', NULL, NULL, NULL, NULL, NULL, 1507355345, 0, NULL, 1508913351, 0, 'Ai', 'Ratnasari', 'XII RPL 1', NULL),
 (3, '127.0.0.1', 'ai.r2', '$2y$08$NZDsQKuIGVzp.OqUoW/1nuw60VZNwCKuZ3J7Vtx4YZ0WZZBfz79Fq', NULL, '', NULL, NULL, NULL, NULL, NULL, 1507373097, 0, NULL, 1508913977, 0, 'Ai', 'Roshayati', 'XII RPL 1', NULL),
 (4, '127.0.0.1', 'aneu.n3', '$2y$08$uy45crP2yl72JvkcdeEvvuSY59xOG068.4ztBNB/Thz7W8okXjh/W', NULL, '', NULL, NULL, NULL, NULL, NULL, 1507373147, 0, NULL, 1508913315, 0, 'Aneu', 'Noviana', 'XII RPL 1', NULL),

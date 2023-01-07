@@ -6,10 +6,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'mysql',
 	'username' => 'root',
-	'password' => '',
-	'database' => 'se_vote',
+	'password' => 'Password1',
+	'database' => 'evoting',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
